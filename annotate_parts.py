@@ -23,11 +23,13 @@ type_mapping = {
 }
 
 
-def annotate_part(plasmid_record: SeqRecord, part_id, part_sequence, part_name):
+def annotate_part(plasmid_record: SeqRecord, part_id, part_sequence, plasmid_name):
+    # Rename the record
+    plasmid_record.name = part_id
     for feature in plasmid_record.features:
         feature: SeqFeature
         if feature.location.extract(plasmid_record.seq) == part_sequence:
-            feature.qualifiers["label"] = [f"{part_name} / {part_id}"]
+            feature.qualifiers["label"] = [f"{plasmid_name} / {part_id}"]
             if "db_xref" in feature.qualifiers:
                 feature.qualifiers["db_xref"].append(part_id)
             else:
@@ -42,16 +44,13 @@ def annotate_part(plasmid_record: SeqRecord, part_id, part_sequence, part_name):
     new_feature = SeqFeature(
         location=SimpleLocation(start, end),
         type="misc_feature",
-        qualifiers={"label": f"{part_name} / {part_id}", "db_xref": part_id},
+        qualifiers={"label": f"{plasmid_name} / {part_id}", "db_xref": part_id},
     )
     plasmid_record.features.append(new_feature)
 
 
 if __name__ == "__main__":
     df = read_csv("results/2024_Parts_List_with_sequences.csv")
-    # Print unique values in the "Part Type (unified)" column
-    print(*df["Part Type (unified)"].unique(), sep="\n")
-    exit()
     for index, row in df.iterrows():
         plasmid_file_in = f"results/plasmids/{row['Part Name']}_plannotate.gb"
         plasmid_file_out = f"results/plasmids/{row['Part Name']}.gb"
