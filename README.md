@@ -51,8 +51,8 @@ python annotate_plasmids.py
 
 For each plasmid sequence in the `results/2024_Parts_List_with_sequences.csv` file, this script will:
 
-- Annotate the sequence using pLannotate and save it to `results/plasmids/{part_name}_plannotate.gb`
-- Save the annotation report to `results/reports/{part_name}.csv`
+- Annotate the sequence using pLannotate and save it to `results/plasmids/{Index ID}_plannotate.gb`
+- Save the annotation report to `results/reports/{Index ID}.csv`
 
 ### Annotating parts
 
@@ -64,7 +64,7 @@ This script will add extra annotation to the gb files produced by pLannotate.
 
 - If a feature found by pLannotate matches the part, it will rename it to `{part_name} / {part_id}` and add a `db_xref` qualifier with the part id.
 - Otherwise, it will add a new feature with that label. It will try to guess the type from the `Part Type (unified)` column (see the dictionary `type_mapping` in the script).
-- Will save the annotated file to `results/parts/{part_name}.gb`
+- Will save the annotated file to `results/parts/{Index ID}.gb`
 
 ### Building an index
 
@@ -79,21 +79,21 @@ This script will turn the `2024_Parts_List.csv` file into `results/index.json`, 
 You can make a request to get the files directly from github using a url like this:
 
 ```
-https://raw.githubusercontent.com/manulera/annotated-igem-distribution/master/results/plasmids/{part_name}.gb
+https://raw.githubusercontent.com/manulera/annotated-igem-distribution/master/results/plasmids/{INDEX ID}.gb
 ```
 
 For instance, to get the plasmid file for `BBa_C0062`, you can do:
 
-https://raw.githubusercontent.com/manulera/annotated-igem-distribution/master/results/plasmids/BBa_C0062.gb
+https://raw.githubusercontent.com/manulera/annotated-igem-distribution/master/results/plasmids/115.gb
 
 This will return the gb file for the plasmid.
 
 Similarly, you can get annotation info from plannotate using a url like this:
 
 ```
-https://raw.githubusercontent.com/manulera/annotated-igem-distribution/master/results/reports/{part_name}.csv
+https://raw.githubusercontent.com/manulera/annotated-igem-distribution/master/results/reports/{INDEX ID}.csv
 ```
 
 For instance, to get the annotation report for `BBa_C0062`, you can do:
 
-https://raw.githubusercontent.com/manulera/annotated-igem-distribution/master/results/reports/BBa_C0062.csv
+https://raw.githubusercontent.com/manulera/annotated-igem-distribution/master/results/reports/115.csv
