@@ -129,7 +129,7 @@ FEATURES             Location/Qualifiers
                      /fragment="True"
                      /other="CDS"
      misc_feature    2071..8046
-                     /label="2018_Interlab_J364009 / BBa_J364009"
+                     /label="Interlab 2018 Test Device 6 / BBa_J364009"
                      /db_xref="BBa_J364009"
 ORIGIN
         1 tactagtagc ggccgctgca gtccggcaaa aaagggcaag gtgtcaccac cctgcccttt

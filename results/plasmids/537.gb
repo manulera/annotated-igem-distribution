@@ -105,7 +105,7 @@ FEATURES             Location/Qualifiers
                      /fragment="True"
                      /other="CDS"
      misc_feature    145..6270
-                     /label="L0 polyA / BBa_J433045"
+                     /label="L0 Kozak-CDS / BBa_J433045"
                      /db_xref="BBa_J433045"
 ORIGIN
         1 attaccgcct ttgagtgagc tgataccgct cgccgcagcc gaacgaccga gcgcagcgag

@@ -18,8 +18,8 @@ def annotate_plasmid(inSeq):
 
 
 def process_plasmid(row):
-    plasmid_file = f"results/plasmids/{row['Part Name']}_plannotate.gb"
-    csv_file = f"results/reports/{row['Part Name']}.csv"
+    plasmid_file = f"results/plasmids/{row['Index ID']}_plannotate.gb"
+    csv_file = f"results/reports/{row['Index ID']}.csv"
     if not os.path.exists(plasmid_file):
         print(row["Part Name"])
         gbk, csv = annotate_plasmid(str(row["Full Plasmid Seq"]))

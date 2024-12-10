@@ -97,7 +97,7 @@ FEATURES             Location/Qualifiers
                      /fragment="True"
                      /other="CDS"
      misc_feature    2208..7509
-                     /label="fiveUTRs_TMV_chloroplast_transit / BBa_J428090"
+                     /label="TMV_chloroplast_transit / BBa_J428090"
                      /db_xref="BBa_J428090"
 ORIGIN
         1 tccggcaaaa aagggcaagg tgtcaccacc ctgccctttt tctttaaaac cgaaaagatt

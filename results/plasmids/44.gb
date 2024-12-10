@@ -1,4 +1,4 @@
-LOCUS       BBa_J364002             2988 bp    DNA     circular SYN 10-DEC-2024
+LOCUS       BBa_J364001             2988 bp    DNA     circular SYN 10-DEC-2024
 DEFINITION  .
 ACCESSION   .
 VERSION     .
@@ -112,12 +112,12 @@ FEATURES             Location/Qualifiers
                      /match_length="102.9"
                      /fragment="False"
                      /other="ncRNA"
-     promoter        2071..2093
+     promoter        2077..2105
                      /note="pLannotate"
-                     /label="J23119(SpeI) promoter (fragment)"
+                     /label="J23119 promoter (fragment)"
                      /database="snapgene"
-                     /identity="100.0"
-                     /match_length="65.7"
+                     /identity="96.6"
+                     /match_length="82.9"
                      /fragment="True"
                      /other="promoter"
      CDS             1039..1107
@@ -129,8 +129,8 @@ FEATURES             Location/Qualifiers
                      /fragment="True"
                      /other="CDS"
      misc_feature    2071..8046
-                     /label="2018_Interlab_J364002 / BBa_J364002"
-                     /db_xref="BBa_J364002"
+                     /label="Interlab 2018 Test Device 2 / BBa_J364001"
+                     /db_xref="BBa_J364001"
 ORIGIN
         1 tactagtagc ggccgctgca gtccggcaaa aaagggcaag gtgtcaccac cctgcccttt
        61 ttctttaaaa ccgaaaagat tacttcgcgt tatgcaggct tcctcgctca ctgactcgct
@@ -166,7 +166,7 @@ ORIGIN
      1861 atacgcccgg tagtgatctt atttcattat ggtgaaagtt ggaacctctt acgtgcccga
      1921 tcaactcgag tgccacctga cgtctaagaa accattatta tcatgacatt aacctataaa
      1981 aataggcgta tcacgaggca gaatttcaga taaaaaaaat ccttagcttt cgctaaggat
-     2041 gatttctgga attcgcggcc gcttctagag ttgacagcta gctcagtcct agggattgtg
+     2041 gatttctgga attcgcggcc gcttctagag tttacggcta gctcagtcct aggtatagtg
      2101 ctagctacta gagaaagagg agaaatacta gatgcgtaaa ggagaagaac ttttcactgg
      2161 agttgtccca attcttgttg aattagatgg tgatgttaat gggcacaaat tttctgtcag
      2221 tggagagggt gaaggtgatg caacatacgg aaaacttacc cttaaattta tttgcactac

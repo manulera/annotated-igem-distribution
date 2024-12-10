@@ -52,8 +52,8 @@ def annotate_part(plasmid_record: SeqRecord, part_id, part_sequence, plasmid_nam
 if __name__ == "__main__":
     df = read_csv("results/2024_Parts_List_with_sequences.csv")
     for index, row in df.iterrows():
-        plasmid_file_in = f"results/plasmids/{row['Part Name']}_plannotate.gb"
-        plasmid_file_out = f"results/plasmids/{row['Part Name']}.gb"
+        plasmid_file_in = f"results/plasmids/{row['Index ID']}_plannotate.gb"
+        plasmid_file_out = f"results/plasmids/{row['Index ID']}.gb"
         plasmid_record: SeqRecord = SeqIO.read(plasmid_file_in, "genbank")
         annotate_part(
             plasmid_record,

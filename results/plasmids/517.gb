@@ -1,4 +1,4 @@
-LOCUS       BBa_J364008             2988 bp    DNA     circular SYN 10-DEC-2024
+LOCUS       BBa_J428090             2694 bp    DNA     circular SYN 10-DEC-2024
 DEFINITION  .
 ACCESSION   .
 VERSION     .
@@ -8,14 +8,6 @@ SOURCE
             .
 COMMENT     Annotated with pLannotate v1.2.2
 FEATURES             Location/Qualifiers
-     CDS             2132..2845
-                     /note="pLannotate"
-                     /label="hfriFP"
-                     /database="fpbase"
-                     /identity="100.0"
-                     /match_length="100.0"
-                     /fragment="False"
-                     /other="CDS"
      CDS             complement(1163..1819)
                      /note="pLannotate"
                      /label="cat"
@@ -27,14 +19,6 @@ FEATURES             Location/Qualifiers
      terminator      complement(1045..1139)
                      /note="pLannotate"
                      /label="lambda t0 terminator"
-                     /database="snapgene"
-                     /identity="100.0"
-                     /match_length="100.0"
-                     /fragment="False"
-                     /other="terminator"
-     terminator      2868..2939
-                     /note="pLannotate"
-                     /label="rrnB T1 terminator"
                      /database="snapgene"
                      /identity="100.0"
                      /match_length="100.0"
@@ -72,14 +56,6 @@ FEATURES             Location/Qualifiers
                      /match_length="47.2"
                      /fragment="True"
                      /other="intron"
-     terminator      2955..2982
-                     /note="pLannotate"
-                     /label="T7Te terminator"
-                     /database="snapgene"
-                     /identity="100.0"
-                     /match_length="100.0"
-                     /fragment="False"
-                     /other="terminator"
      misc_feature    2049..2070
                      /note="pLannotate"
                      /label="BioBrick prefix"
@@ -104,6 +80,14 @@ FEATURES             Location/Qualifiers
                      /match_length="95.1"
                      /fragment="False"
                      /other="promoter"
+     misc_feature    2272..2325
+                     /note="pLannotate"
+                     /label="TMV Ω"
+                     /database="snapgene"
+                     /identity="100.0"
+                     /match_length="98.2"
+                     /fragment="False"
+                     /other="misc_feature"
      ncRNA           717..821
                      /note="pLannotate"
                      /label="RNAI"
@@ -112,14 +96,14 @@ FEATURES             Location/Qualifiers
                      /match_length="102.9"
                      /fragment="False"
                      /other="ncRNA"
-     promoter        2071..2096
+     CDS             2334..2507
                      /note="pLannotate"
-                     /label="J23119(SpeI) promoter (fragment)"
-                     /database="snapgene"
-                     /identity="100.0"
-                     /match_length="74.3"
+                     /label="rbcS (fragment)"
+                     /database="swissprot"
+                     /identity="84.5"
+                     /match_length="32.2"
                      /fragment="True"
-                     /other="promoter"
+                     /other="CDS"
      CDS             1039..1107
                      /note="pLannotate"
                      /label="cII (fragment)"
@@ -128,9 +112,9 @@ FEATURES             Location/Qualifiers
                      /match_length="23.7"
                      /fragment="True"
                      /other="CDS"
-     misc_feature    2071..8046
-                     /label="2018_Interlab_J364008 / BBa_J364008"
-                     /db_xref="BBa_J364008"
+     misc_feature    2251..7638
+                     /label="fiveUTRs_TMV_chloroplast_transit / BBa_J428090"
+                     /db_xref="BBa_J428090"
 ORIGIN
         1 tactagtagc ggccgctgca gtccggcaaa aaagggcaag gtgtcaccac cctgcccttt
        61 ttctttaaaa ccgaaaagat tacttcgcgt tatgcaggct tcctcgctca ctgactcgct
@@ -166,20 +150,15 @@ ORIGIN
      1861 atacgcccgg tagtgatctt atttcattat ggtgaaagtt ggaacctctt acgtgcccga
      1921 tcaactcgag tgccacctga cgtctaagaa accattatta tcatgacatt aacctataaa
      1981 aataggcgta tcacgaggca gaatttcaga taaaaaaaat ccttagcttt cgctaaggat
-     2041 gatttctgga attcgcggcc gcttctagag ttgacagcta gctcagtcct aggtattgtg
-     2101 ctagctacta gagaaagagg agaaatacta gatgcgtaaa ggagaagaac ttttcactgg
-     2161 agttgtccca attcttgttg aattagatgg tgatgttaat gggcacaaat tttctgtcag
-     2221 tggagagggt gaaggtgatg caacatacgg aaaacttacc cttaaattta tttgcactac
-     2281 tggaaaacta cctgttccat ggccaacact tgtcactact ttcggttatg gtgttcaatg
-     2341 ctttgcgaga tacccagatc atatgaaaca gcatgacttt ttcaagagtg ccatgcccga
-     2401 aggttatgta caggaaagaa ctatattttt caaagatgac gggaactaca agacacgtgc
-     2461 tgaagtcaag tttgaaggtg atacccttgt taatagaatc gagttaaaag gtattgattt
-     2521 taaagaagat ggaaacattc ttggacacaa attggaatac aactataact cacacaatgt
-     2581 atacatcatg gcagacaaac aaaagaatgg aatcaaagtt aacttcaaaa ttagacacaa
-     2641 cattgaagat ggaagcgttc aactagcaga ccattatcaa caaaatactc caattggcga
-     2701 tggccctgtc cttttaccag acaaccatta cctgtccaca caatctgccc tttcgaaaga
-     2761 tcccaacgaa aagagagacc acatggtcct tcttgagttt gtaacagctg ctgggattac
-     2821 acatggcatg gatgaactat acaaataata atactagagc caggcatcaa ataaaacgaa
-     2881 aggctcagtc gaaagactgg gcctttcgtt ttatctgttg tttgtcggtg aacgctctct
-     2941 actagagtca cactggctca ccttcgggtg ggcctttctg cgtttata
+     2041 gatttctgga attcgcggcc gcttctagag aacgatgatg ctcactctcg ggtaccagca
+     2101 ttttcggagg ttctctaaca gtatggataa ccgtgttttc actgtgctgc ggttacccat
+     2161 cgcctgaaat ccagttggtg tcaagccatt ccctgtctag gacgccgcat gtagtaaaac
+     2221 atatacattg ctcgggttcg gtctcgtact gtataagagc tcatttttac aacaattacc
+     2281 aacaacaaca aacaacaaac aacattacaa ttacatttac aattatcgat aacatggctt
+     2341 cttctatgct ttcttctgct gctgttgttg ctactcgtgc tagtgctgct caagctagta
+     2401 tggttgctcc ttttactgga cttaagtctg ctgcttcttt tcctgttact agaaagcaaa
+     2461 acaaccttga tattacttct attgctagta acggaggaag agttcgagca ggaatgtgag
+     2521 acctataaac gccaggttgt atccgcattt gatgctacca tggatgagtc agcgtcgagc
+     2581 acgcggcatt tattgcatga gtagggttga ctaagaaccg ttagatgcct cgctgtacta
+     2641 ataattgtca acagatcgtc aagattagaa aatagggttt agtccggcaa tact
 //

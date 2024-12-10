@@ -1,4 +1,4 @@
-LOCUS       BBa_I20270              2989 bp    DNA     circular SYN 10-DEC-2024
+LOCUS       BBa_J364002             2988 bp    DNA     circular SYN 10-DEC-2024
 DEFINITION  .
 ACCESSION   .
 VERSION     .
@@ -8,7 +8,7 @@ SOURCE
             .
 COMMENT     Annotated with pLannotate v1.2.2
 FEATURES             Location/Qualifiers
-     CDS             2133..2846
+     CDS             2132..2845
                      /note="pLannotate"
                      /label="hfriFP"
                      /database="fpbase"
@@ -32,7 +32,7 @@ FEATURES             Location/Qualifiers
                      /match_length="100.0"
                      /fragment="False"
                      /other="terminator"
-     terminator      2869..2940
+     terminator      2868..2939
                      /note="pLannotate"
                      /label="rrnB T1 terminator"
                      /database="snapgene"
@@ -72,7 +72,7 @@ FEATURES             Location/Qualifiers
                      /match_length="47.2"
                      /fragment="True"
                      /other="intron"
-     terminator      2956..2983
+     terminator      2955..2982
                      /note="pLannotate"
                      /label="T7Te terminator"
                      /database="snapgene"
@@ -112,12 +112,12 @@ FEATURES             Location/Qualifiers
                      /match_length="102.9"
                      /fragment="False"
                      /other="ncRNA"
-     promoter        2077..2105
+     promoter        2071..2093
                      /note="pLannotate"
-                     /label="J23119 promoter (fragment)"
+                     /label="J23119(SpeI) promoter (fragment)"
                      /database="snapgene"
-                     /identity="96.6"
-                     /match_length="82.9"
+                     /identity="100.0"
+                     /match_length="65.7"
                      /fragment="True"
                      /other="promoter"
      CDS             1039..1107
@@ -128,9 +128,9 @@ FEATURES             Location/Qualifiers
                      /match_length="23.7"
                      /fragment="True"
                      /other="CDS"
-     misc_feature    2071..8048
-                     /label="2018_Interlab_I20270 / BBa_I20270"
-                     /db_xref="BBa_I20270"
+     misc_feature    2071..8046
+                     /label="Interlab 2018 Test Device 3 / BBa_J364002"
+                     /db_xref="BBa_J364002"
 ORIGIN
         1 tactagtagc ggccgctgca gtccggcaaa aaagggcaag gtgtcaccac cctgcccttt
        61 ttctttaaaa ccgaaaagat tacttcgcgt tatgcaggct tcctcgctca ctgactcgct
@@ -166,20 +166,20 @@ ORIGIN
      1861 atacgcccgg tagtgatctt atttcattat ggtgaaagtt ggaacctctt acgtgcccga
      1921 tcaactcgag tgccacctga cgtctaagaa accattatta tcatgacatt aacctataaa
      1981 aataggcgta tcacgaggca gaatttcaga taaaaaaaat ccttagcttt cgctaaggat
-     2041 gatttctgga attcgcggcc gcttctagag ttgatggcta gctcagtcct aggtacaatg
-     2101 ctagctacta gagtcacaca ggaaagtact agatgcgtaa aggagaagaa cttttcactg
-     2161 gagttgtccc aattcttgtt gaattagatg gtgatgttaa tgggcacaaa ttttctgtca
-     2221 gtggagaggg tgaaggtgat gcaacatacg gaaaacttac ccttaaattt atttgcacta
-     2281 ctggaaaact acctgttcca tggccaacac ttgtcactac tttcggttat ggtgttcaat
-     2341 gctttgcgag atacccagat catatgaaac agcatgactt tttcaagagt gccatgcccg
-     2401 aaggttatgt acaggaaaga actatatttt tcaaagatga cgggaactac aagacacgtg
-     2461 ctgaagtcaa gtttgaaggt gatacccttg ttaatagaat cgagttaaaa ggtattgatt
-     2521 ttaaagaaga tggaaacatt cttggacaca aattggaata caactataac tcacacaatg
-     2581 tatacatcat ggcagacaaa caaaagaatg gaatcaaagt taacttcaaa attagacaca
-     2641 acattgaaga tggaagcgtt caactagcag accattatca acaaaatact ccaattggcg
-     2701 atggccctgt ccttttacca gacaaccatt acctgtccac acaatctgcc ctttcgaaag
-     2761 atcccaacga aaagagagac cacatggtcc ttcttgagtt tgtaacagct gctgggatta
-     2821 cacatggcat ggatgaacta tacaaataat aatactagag ccaggcatca aataaaacga
-     2881 aaggctcagt cgaaagactg ggcctttcgt tttatctgtt gtttgtcggt gaacgctctc
-     2941 tactagagtc acactggctc accttcgggt gggcctttct gcgtttata
+     2041 gatttctgga attcgcggcc gcttctagag ttgacagcta gctcagtcct agggattgtg
+     2101 ctagctacta gagaaagagg agaaatacta gatgcgtaaa ggagaagaac ttttcactgg
+     2161 agttgtccca attcttgttg aattagatgg tgatgttaat gggcacaaat tttctgtcag
+     2221 tggagagggt gaaggtgatg caacatacgg aaaacttacc cttaaattta tttgcactac
+     2281 tggaaaacta cctgttccat ggccaacact tgtcactact ttcggttatg gtgttcaatg
+     2341 ctttgcgaga tacccagatc atatgaaaca gcatgacttt ttcaagagtg ccatgcccga
+     2401 aggttatgta caggaaagaa ctatattttt caaagatgac gggaactaca agacacgtgc
+     2461 tgaagtcaag tttgaaggtg atacccttgt taatagaatc gagttaaaag gtattgattt
+     2521 taaagaagat ggaaacattc ttggacacaa attggaatac aactataact cacacaatgt
+     2581 atacatcatg gcagacaaac aaaagaatgg aatcaaagtt aacttcaaaa ttagacacaa
+     2641 cattgaagat ggaagcgttc aactagcaga ccattatcaa caaaatactc caattggcga
+     2701 tggccctgtc cttttaccag acaaccatta cctgtccaca caatctgccc tttcgaaaga
+     2761 tcccaacgaa aagagagacc acatggtcct tcttgagttt gtaacagctg ctgggattac
+     2821 acatggcatg gatgaactat acaaataata atactagagc caggcatcaa ataaaacgaa
+     2881 aggctcagtc gaaagactgg gcctttcgtt ttatctgttg tttgtcggtg aacgctctct
+     2941 actagagtca cactggctca ccttcgggtg ggcctttctg cgtttata
 //
