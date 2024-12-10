@@ -79,7 +79,7 @@ This script will turn the `2024_Parts_List.csv` file into `results/index.json`, 
 You can make a request to get the files directly from github using a url like this:
 
 ```
-https://raw.githubusercontent.com/manulera/annotated-igem-distribution/master/results/plasmids/{INDEX ID}.gb
+https://raw.githubusercontent.com/manulera/annotated-igem-distribution/master/results/plasmids/{Index ID}.gb
 ```
 
 For instance, to get the plasmid file for `BBa_C0062`, you can do:
@@ -91,7 +91,7 @@ This will return the gb file for the plasmid.
 Similarly, you can get annotation info from plannotate using a url like this:
 
 ```
-https://raw.githubusercontent.com/manulera/annotated-igem-distribution/master/results/reports/{INDEX ID}.csv
+https://raw.githubusercontent.com/manulera/annotated-igem-distribution/master/results/reports/{Index ID}.csv
 ```
 
 For instance, to get the annotation report for `BBa_C0062`, you can do:
