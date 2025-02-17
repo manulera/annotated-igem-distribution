@@ -4,10 +4,11 @@ version = "0.1.0"
 description = "A set of python scripts to annotate plasmids from addgene using plannotate and make them easy to be requested"
 authors = ["Manuel Lera-Ramirez <manulera14@gmail.com>"]
 readme = "README.md"
+package-mode = false
 
 [tool.poetry.dependencies]
 python = "^3.11"
-plannotate = {git = "https://github.com/manulera/pLannotate"}
+plannotate = { git = "https://github.com/manulera/pLannotate" }
 pandas = "^2.2.3"
 requests = "^2.32.3"
 httpx = "^0.28.1"

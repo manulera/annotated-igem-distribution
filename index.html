@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parts Search</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .search-container {
+            margin-bottom: 20px;
+        }
+
+        #searchInput {
+            width: 100%;
+            padding: 12px;
+            font-size: 16px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th,
+        td {
+            padding: 12px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+
+        th {
+            background-color: #f5f5f5;
+            position: sticky;
+            top: 0;
+        }
+
+        tr:hover {
+            background-color: #f9f9f9;
+        }
+
+        a {
+            color: #0066cc;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .sequence-link {
+            color: #28a745;
+            font-size: 14px;
+        }
+
+        .header {
+            margin-bottom: 20px;
+            text-align: center;
+            font-size: large;
+        }
+
+        .search-container {
+            margin-bottom: 20px;
+            max-width: 500px;
+            margin: auto;
+            padding-bottom: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <h1>Annotated 2024 iGEM distribution</h1>
+        <p>This is a list of all the parts in the 2024 iGEM distribution, annotated using <a
+                href="https://github.com/mmcguffi/pLannotate">pLannotate</a>.
+        </p>
+        <p>Find your plasmid, and click on the "Download sequence" link to download the annotated plasmid sequence.</p>
+        <p>For details, visit the <a href="https://github.com/manulera/annotated-igem-distribution">github
+                repository</a>.</p>
+    </div>
+    <div class="search-container">
+        <input type="text" id="searchInput" placeholder="Filter...">
+    </div>
+    <table id="partsTable">
+        <thead>
+            <tr>
+                <th>Part Name</th>
+                <th>Short Description</th>
+                <th>Part Type</th>
+                <th>Collection</th>
+                <th>Plate</th>
+                <th>Well</th>
+                <th>Download sequence</th>
+            </tr>
+        </thead>
+        <tbody id="tableBody">
+        </tbody>
+    </table>
+
+    <script>
+        let partsData = [];
+
+        // Update this with your GitHub repository details
+        const GITHUB_RAW_BASE = 'https://raw.githubusercontent.com/manulera/annotated-igem-distribution/master';
+
+        // Fetch and load the JSON data
+        async function loadPartsData() {
+            try {
+                const response = await fetch(`${GITHUB_RAW_BASE}/results/index.json`);
+                partsData = await response.json();
+                partsData = partsData.sort((a, b) => {
+                    const [aLetter, aNumber] = a['Well'].match(/([A-Z])(\d+)/).slice(1);
+                    const [bLetter, bNumber] = b['Well'].match(/([A-Z])(\d+)/).slice(1);
+                    const aPlate = a['KP']
+                    const bPlate = b['KP']
+                    if (aPlate !== bPlate) {
+                        return aPlate - bPlate;
+                    }
+                    if (aLetter !== bLetter) {
+                        return aLetter.localeCompare(bLetter);
+                    }
+                    return parseInt(aNumber) - parseInt(bNumber);
+                });
+                filterTable('');
+            } catch (error) {
+                console.error('Error loading parts data:', error);
+            }
+        }
+
+        // Filter table based on search input
+        function filterTable(searchTerm) {
+            const tbody = document.getElementById('tableBody');
+            tbody.innerHTML = '';
+
+            const filteredData = partsData.filter(part => {
+                const searchFields = [
+                    part['Part Name'],
+                    part['Short Desc / Name'],
+                    part['Part Type (unified)'],
+                    part['Collection'],
+                    part['KP']?.toString(),
+                    part['Well'],
+                    part['Index ID']?.toString()
+                ].map(field => (field || '').toLowerCase());
+
+                return searchFields.some(field => field.includes(searchTerm.toLowerCase()));
+            });
+
+            filteredData.forEach(part => {
+                const row = tbody.insertRow();
+
+                // Part Name with link
+                const nameCell = row.insertCell();
+                const link = document.createElement('a');
+                link.href = part['Part URL'];
+                link.target = '_blank';
+                link.textContent = part['Part Name'];
+                nameCell.appendChild(link);
+
+                // Other cells
+                row.insertCell().textContent = part['Short Desc / Name'];
+                row.insertCell().textContent = part['Part Type (unified)'];
+                row.insertCell().textContent = part['Collection'];
+                row.insertCell().textContent = part['KP'];
+                row.insertCell().textContent = part['Well'];
+
+
+                // Sequence file link
+                const seqCell = row.insertCell();
+                if (part['Index ID']) {
+                    const seqLink = document.createElement('a');
+                    seqLink.href = '#';
+                    seqLink.textContent = 'GenBank';
+                    seqLink.onclick = async (e) => {
+                        e.preventDefault();
+                        const response = await fetch(`${GITHUB_RAW_BASE}/results/plasmids/${part['Index ID']}.gb`);
+                        const blob = await response.blob();
+                        const url = window.URL.createObjectURL(blob);
+                        const a = document.createElement('a');
+                        a.href = url;
+                        a.download = `${part['Part Name']}.gb`;
+                        document.body.appendChild(a);
+                        a.click();
+                        document.body.removeChild(a);
+                        window.URL.revokeObjectURL(url);
+                    };
+                    seqCell.appendChild(seqLink);
+                }
+            });
+        }
+
+        // Add search input event listener
+        document.getElementById('searchInput').addEventListener('input', (e) => {
+            filterTable(e.target.value);
+        });
+
+        // Load data when page loads
+        loadPartsData();
+    </script>
+</body>
+
+</html>

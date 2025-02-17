@@ -1,6 +1,9 @@
 # iGEM 2024 Distribution annotated
 
-A set of scripts to annotate the iGEM 2024 distribution using [pLannotate](https://github.com/mmcguffi/pLannotate).
+This repository contains a set of scripts to annotate the iGEM 2024 distribution using [pLannotate](https://github.com/mmcguffi/pLannotate).
+
+You can browse the collection and download the annotated plasmids at
+https://manulera.github.io/annotated-igem-distribution/
 
 ## Dependencies
 
@@ -31,6 +34,8 @@ python download_plannotate_databases.py
 ### External files
 
 The file `2024_Parts_List.csv` contains the list of plasmids and comes from the [iGEM airtable](https://airtable.com/appgWgf6EPX5gpnNU/shrb0c8oYTgpZDRgH/tblNqHsHbNNQP2HCX).
+
+A summary without the sequences can be found in `2024_parts_summary.csv`.
 
 
 ## Running the pipeline
