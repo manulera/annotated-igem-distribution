@@ -1,4 +1,4 @@
-LOCUS       BBa_J364009             2988 bp    DNA     circular SYN 10-DEC-2024
+LOCUS       BBa_J364009             2988 bp    DNA     circular SYN 11-APR-2025
 DEFINITION  .
 ACCESSION   .
 VERSION     .
@@ -128,7 +128,7 @@ FEATURES             Location/Qualifiers
                      /match_length="23.7"
                      /fragment="True"
                      /other="CDS"
-     misc_feature    2071..8046
+     misc_feature    2071..2988
                      /label="Interlab 2018 Test Device 6 / BBa_J364009"
                      /db_xref="BBa_J364009"
 ORIGIN

@@ -1,4 +1,4 @@
-LOCUS       BBa_J435282             3861 bp    DNA     circular SYN 10-DEC-2024
+LOCUS       BBa_J435282             3861 bp    DNA     circular SYN 11-APR-2025
 DEFINITION  .
 ACCESSION   .
 VERSION     .
@@ -88,7 +88,7 @@ FEATURES             Location/Qualifiers
                      /match_length="3.4"
                      /fragment="True"
                      /other="misc_feature"
-     misc_feature    2033..9754
+     misc_feature    2033..3769
                      /label="pWV01-ori / BBa_J435282"
                      /db_xref="BBa_J435282"
 ORIGIN

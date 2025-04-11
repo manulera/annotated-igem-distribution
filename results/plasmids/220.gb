@@ -1,4 +1,4 @@
-LOCUS       BBa_J435368             2735 bp    DNA     circular SYN 10-DEC-2024
+LOCUS       BBa_J435368             2735 bp    DNA     circular SYN 11-APR-2025
 DEFINITION  .
 ACCESSION   .
 VERSION     .
@@ -64,7 +64,7 @@ FEATURES             Location/Qualifiers
                      /match_length="9.8"
                      /fragment="True"
                      /other="CDS"
-     misc_feature    2033..7502
+     misc_feature    2033..2643
                      /label="DN4_Int_SaltS / BBa_J435368"
                      /db_xref="BBa_J435368"
 ORIGIN

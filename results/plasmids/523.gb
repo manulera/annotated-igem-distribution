@@ -1,4 +1,4 @@
-LOCUS       BBa_J433042             4257 bp    DNA     circular SYN 10-DEC-2024
+LOCUS       BBa_J433042             4257 bp    DNA     circular SYN 11-APR-2025
 DEFINITION  .
 ACCESSION   .
 VERSION     .
@@ -80,7 +80,7 @@ FEATURES             Location/Qualifiers
                      /match_length="69.4"
                      /fragment="True"
                      /other="CDS"
-     misc_feature    1..8514
+     misc_feature    1..2502
                      /label="L1 hEF1a-RFP positive control / BBa_J433042"
                      /db_xref="BBa_J433042"
 ORIGIN

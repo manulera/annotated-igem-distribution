@@ -1,4 +1,4 @@
-LOCUS       BBa_J435279             3748 bp    DNA     circular SYN 10-DEC-2024
+LOCUS       BBa_J435279             3748 bp    DNA     circular SYN 11-APR-2025
 DEFINITION  .
 ACCESSION   .
 VERSION     .
@@ -96,7 +96,7 @@ FEATURES             Location/Qualifiers
                      /match_length="40.6"
                      /fragment="True"
                      /other="CDS"
-     misc_feature    2033..9528
+     misc_feature    2033..3657
                      /label="ScTRP1-marker / BBa_J435279"
                      /db_xref="BBa_J435279"
 ORIGIN

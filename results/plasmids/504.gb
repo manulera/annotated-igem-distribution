@@ -1,4 +1,4 @@
-LOCUS       BBa_J428050             2509 bp    DNA     circular SYN 10-DEC-2024
+LOCUS       BBa_J428050             2509 bp    DNA     circular SYN 11-APR-2025
 DEFINITION  .
 ACCESSION   .
 VERSION     .
@@ -104,7 +104,7 @@ FEATURES             Location/Qualifiers
                      /match_length="23.7"
                      /fragment="True"
                      /other="CDS"
-     misc_feature    2251..7268
+     misc_feature    2251..2327
                      /label="Promoters_pQacR / BBa_J428050"
                      /db_xref="BBa_J428050"
 ORIGIN

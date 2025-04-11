@@ -1,4 +1,4 @@
-LOCUS       BBa_J428109             4085 bp    DNA     circular SYN 10-DEC-2024
+LOCUS       BBa_J428109             4085 bp    DNA     circular SYN 11-APR-2025
 DEFINITION  .
 ACCESSION   .
 VERSION     .
@@ -144,7 +144,7 @@ FEATURES             Location/Qualifiers
                      /match_length="23.7"
                      /fragment="True"
                      /other="CDS"
-     misc_feature    2071..10240
+     misc_feature    2071..4085
                      /label="DC_B_ins_K2656022 / BBa_J428109"
                      /db_xref="BBa_J428109"
 ORIGIN

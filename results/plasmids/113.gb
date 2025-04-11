@@ -1,4 +1,4 @@
-LOCUS       BBa_R0010               2589 bp    DNA     circular SYN 10-DEC-2024
+LOCUS       BBa_R0010               2589 bp    DNA     circular SYN 11-APR-2025
 DEFINITION  .
 ACCESSION   .
 VERSION     .
@@ -128,7 +128,7 @@ FEATURES             Location/Qualifiers
                      /match_length="10.2"
                      /fragment="True"
                      /other="CDS"
-     misc_feature    2208..7385
+     misc_feature    2208..2407
                      /label="BBa_R0010 / BBa_R0010"
                      /db_xref="BBa_R0010"
 ORIGIN

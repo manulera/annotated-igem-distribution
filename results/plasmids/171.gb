@@ -1,4 +1,4 @@
-LOCUS       BBa_J435319             2424 bp    DNA     circular SYN 10-DEC-2024
+LOCUS       BBa_J435319             2424 bp    DNA     circular SYN 11-APR-2025
 DEFINITION  .
 ACCESSION   .
 VERSION     .
@@ -72,7 +72,7 @@ FEATURES             Location/Qualifiers
                      /match_length="7.0"
                      /fragment="True"
                      /other="CDS"
-     misc_feature    2173..7020
+     misc_feature    2173..2192
                      /label="DN5_TEVcut / BBa_J435319"
                      /db_xref="BBa_J435319"
 ORIGIN

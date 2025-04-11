@@ -1,4 +1,4 @@
-LOCUS       BBa_C0070               2713 bp    DNA     circular SYN 10-DEC-2024
+LOCUS       BBa_C0070               2713 bp    DNA     circular SYN 11-APR-2025
 DEFINITION  .
 ACCESSION   .
 VERSION     .
@@ -96,7 +96,7 @@ FEATURES             Location/Qualifiers
                      /match_length="23.7"
                      /fragment="True"
                      /other="CDS"
-     misc_feature    2036..7461
+     misc_feature    2036..2702
                      /label="BBa_C0070 / BBa_C0070"
                      /db_xref="BBa_C0070"
 ORIGIN

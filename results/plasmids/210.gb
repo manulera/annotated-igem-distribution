@@ -1,4 +1,4 @@
-LOCUS       BBa_J435358             2588 bp    DNA     circular SYN 10-DEC-2024
+LOCUS       BBa_J435358             2588 bp    DNA     circular SYN 11-APR-2025
 DEFINITION  .
 ACCESSION   .
 VERSION     .
@@ -72,7 +72,7 @@ FEATURES             Location/Qualifiers
                      /match_length="9.8"
                      /fragment="True"
                      /other="CDS"
-     misc_feature    2030..7205
+     misc_feature    2030..2496
                      /label="CD_EcRNAseH / BBa_J435358"
                      /db_xref="BBa_J435358"
 ORIGIN

@@ -1,4 +1,4 @@
-LOCUS       BBa_I20270              2989 bp    DNA     circular SYN 10-DEC-2024
+LOCUS       BBa_I20270              2989 bp    DNA     circular SYN 11-APR-2025
 DEFINITION  .
 ACCESSION   .
 VERSION     .
@@ -128,7 +128,7 @@ FEATURES             Location/Qualifiers
                      /match_length="23.7"
                      /fragment="True"
                      /other="CDS"
-     misc_feature    2071..8048
+     misc_feature    2071..2989
                      /label="Interlab 2018 Positive Control / BBa_I20270"
                      /db_xref="BBa_I20270"
 ORIGIN

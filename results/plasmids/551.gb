@@ -1,4 +1,4 @@
-LOCUS       BBa_J433003             2121 bp    DNA     circular SYN 10-DEC-2024
+LOCUS       BBa_J433003             2121 bp    DNA     circular SYN 11-APR-2025
 DEFINITION  .
 ACCESSION   .
 VERSION     .
@@ -64,7 +64,7 @@ FEATURES             Location/Qualifiers
                      /match_length="4.7"
                      /fragment="True"
                      /other="CDS"
-     misc_feature    909..5150
+     misc_feature    909..930
                      /label="5UTR13 / BBa_J433003"
                      /db_xref="BBa_J433003"
 ORIGIN

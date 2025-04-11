@@ -1,4 +1,4 @@
-LOCUS       BBa_J435114             4389 bp    DNA     circular SYN 10-DEC-2024
+LOCUS       BBa_J435114             4389 bp    DNA     circular SYN 11-APR-2025
 DEFINITION  .
 ACCESSION   .
 VERSION     .
@@ -64,7 +64,7 @@ FEATURES             Location/Qualifiers
                      /match_length="24.3"
                      /fragment="True"
                      /other="terminator"
-     misc_feature    1..8778
+     misc_feature    1..4389
                      /label="pE-FLP / BBa_J435114"
                      /db_xref="BBa_J435114"
 ORIGIN

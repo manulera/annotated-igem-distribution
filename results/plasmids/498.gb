@@ -1,4 +1,4 @@
-LOCUS       BBa_R0051               2481 bp    DNA     circular SYN 10-DEC-2024
+LOCUS       BBa_R0051               2481 bp    DNA     circular SYN 11-APR-2025
 DEFINITION  .
 ACCESSION   .
 VERSION     .
@@ -96,7 +96,7 @@ FEATURES             Location/Qualifiers
                      /match_length="23.7"
                      /fragment="True"
                      /other="CDS"
-     misc_feature    2251..7212
+     misc_feature    2251..2299
                      /label="Cell_Comm_Promoters_BBa_R0051 / BBa_R0051"
                      /db_xref="BBa_R0051"
 ORIGIN

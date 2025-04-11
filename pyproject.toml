@@ -12,6 +12,7 @@ plannotate = { git = "https://github.com/manulera/pLannotate" }
 pandas = "^2.2.3"
 requests = "^2.32.3"
 httpx = "^0.28.1"
+pydna = "^5.5.0"
 
 
 [build-system]

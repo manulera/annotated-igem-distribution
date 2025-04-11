@@ -1,4 +1,4 @@
-LOCUS       BBa_J435014             4622 bp    DNA     circular SYN 10-DEC-2024
+LOCUS       BBa_J435014             4622 bp    DNA     circular SYN 11-APR-2025
 DEFINITION  .
 ACCESSION   .
 VERSION     .
@@ -80,7 +80,7 @@ FEATURES             Location/Qualifiers
                      /match_length="3.3"
                      /fragment="True"
                      /other="promoter"
-     misc_feature    29..9272
+     misc_feature    29..2530
                      /label="Taq DNA Polymerase / BBa_J435014"
                      /db_xref="BBa_J435014"
 ORIGIN

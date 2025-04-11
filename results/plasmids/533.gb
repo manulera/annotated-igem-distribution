@@ -1,4 +1,4 @@
-LOCUS       BBa_J433016             3250 bp    DNA     circular SYN 10-DEC-2024
+LOCUS       BBa_J433016             3250 bp    DNA     circular SYN 11-APR-2025
 DEFINITION  .
 ACCESSION   .
 VERSION     .
@@ -120,7 +120,7 @@ FEATURES             Location/Qualifiers
                      /match_length="10.2"
                      /fragment="True"
                      /other="CDS"
-     misc_feature    14..6513
+     misc_feature    14..580
                      /label="Gaussia Luciferase / BBa_J433016"
                      /db_xref="BBa_J433016"
 ORIGIN

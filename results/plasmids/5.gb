@@ -1,4 +1,4 @@
-LOCUS       BBa_K1033916            2739 bp    DNA     circular SYN 10-DEC-2024
+LOCUS       BBa_K1033916            2739 bp    DNA     circular SYN 11-APR-2025
 DEFINITION  .
 ACCESSION   .
 VERSION     .
@@ -88,7 +88,7 @@ FEATURES             Location/Qualifiers
                      /match_length="23.7"
                      /fragment="True"
                      /other="CDS"
-     misc_feature    2036..7513
+     misc_feature    2036..2728
                      /label="amajLime / BBa_K1033916"
                      /db_xref="BBa_K1033916"
 ORIGIN

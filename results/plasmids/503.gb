@@ -1,4 +1,4 @@
-LOCUS       BBa_J428049             2514 bp    DNA     circular SYN 10-DEC-2024
+LOCUS       BBa_J428049             2514 bp    DNA     circular SYN 11-APR-2025
 DEFINITION  .
 ACCESSION   .
 VERSION     .
@@ -104,7 +104,7 @@ FEATURES             Location/Qualifiers
                      /match_length="23.7"
                      /fragment="True"
                      /other="CDS"
-     misc_feature    2251..7278
+     misc_feature    2251..2332
                      /label="Promoters_pSrpR / BBa_J428049"
                      /db_xref="BBa_J428049"
 ORIGIN

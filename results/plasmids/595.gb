@@ -1,4 +1,4 @@
-LOCUS       BBa_J434004             2664 bp    DNA     circular SYN 10-DEC-2024
+LOCUS       BBa_J434004             2664 bp    DNA     circular SYN 11-APR-2025
 DEFINITION  .
 ACCESSION   .
 VERSION     .
@@ -88,7 +88,7 @@ FEATURES             Location/Qualifiers
                      /match_length="23.7"
                      /fragment="True"
                      /other="CDS"
-     misc_feature    2036..7363
+     misc_feature    2036..2653
                      /label="TetR_Orthologs_SmcR / BBa_J434004"
                      /db_xref="BBa_J434004"
 ORIGIN

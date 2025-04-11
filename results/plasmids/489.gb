@@ -1,4 +1,4 @@
-LOCUS       BBa_Z0262               2452 bp    DNA     circular SYN 10-DEC-2024
+LOCUS       BBa_Z0262               2452 bp    DNA     circular SYN 11-APR-2025
 DEFINITION  .
 ACCESSION   .
 VERSION     .
@@ -96,7 +96,7 @@ FEATURES             Location/Qualifiers
                      /match_length="23.7"
                      /fragment="True"
                      /other="CDS"
-     misc_feature    2251..7154
+     misc_feature    2251..2270
                      /label="RBSs_in_vector_BBa_Z0262 / BBa_Z0262"
                      /db_xref="BBa_Z0262"
 ORIGIN

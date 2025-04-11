@@ -1,4 +1,4 @@
-LOCUS       BBa_K2680561            2473 bp    DNA     circular SYN 10-DEC-2024
+LOCUS       BBa_K2680561            2473 bp    DNA     circular SYN 11-APR-2025
 DEFINITION  .
 ACCESSION   .
 VERSION     .
@@ -80,7 +80,7 @@ FEATURES             Location/Qualifiers
                      /match_length="23.7"
                      /fragment="True"
                      /other="CDS"
-     misc_feature    2208..7153
+     misc_feature    2208..2291
                      /label="BCD8 / BBa_K2680561"
                      /db_xref="BBa_K2680561"
 ORIGIN

@@ -1,4 +1,4 @@
-LOCUS       BBa_J434101             2357 bp    DNA     circular SYN 10-DEC-2024
+LOCUS       BBa_J434101             2357 bp    DNA     circular SYN 11-APR-2025
 DEFINITION  .
 ACCESSION   .
 VERSION     .
@@ -88,7 +88,7 @@ FEATURES             Location/Qualifiers
                      /match_length="9.8"
                      /fragment="True"
                      /other="CDS"
-     misc_feature    2021..6734
+     misc_feature    2021..2340
                      /label="BC_pre_Ost1_pro_MF_I_His_TEVcut / BBa_J434101"
                      /db_xref="BBa_J434101"
 ORIGIN

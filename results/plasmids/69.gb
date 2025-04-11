@@ -1,4 +1,4 @@
-LOCUS       BBa_J428080             2612 bp    DNA     circular SYN 10-DEC-2024
+LOCUS       BBa_J428080             2612 bp    DNA     circular SYN 11-APR-2025
 DEFINITION  .
 ACCESSION   .
 VERSION     .
@@ -88,7 +88,7 @@ FEATURES             Location/Qualifiers
                      /match_length="5.9"
                      /fragment="True"
                      /other="rep_origin"
-     misc_feature    2039..7262
+     misc_feature    2039..2601
                      /label="LHB1B2 / BBa_J428080"
                      /db_xref="BBa_J428080"
 ORIGIN

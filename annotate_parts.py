@@ -2,6 +2,7 @@ from Bio import SeqIO
 from Bio.SeqFeature import SeqFeature, SimpleLocation
 from Bio.SeqRecord import SeqRecord
 from pandas import read_csv
+from pydna.utils import shift_location
 
 type_mapping = {
     "terminator": "terminator",
@@ -40,12 +41,14 @@ def annotate_part(plasmid_record: SeqRecord, part_id, part_sequence, plasmid_nam
     start = full_circ.find(part_sequence.upper())
     if start == -1:
         raise ValueError(f"Part {part_id} not found in plasmid")
-    end = start + len(full_circ)
+    end = start + len(part_sequence)
     new_feature = SeqFeature(
-        location=SimpleLocation(start, end),
+        location=shift_location(SimpleLocation(start, end), 0, len(plasmid_record)),
         type="misc_feature",
         qualifiers={"label": f"{plasmid_name} / {part_id}", "db_xref": part_id},
     )
+    # Sanity check
+    assert len(new_feature.location) == len(part_sequence)
     plasmid_record.features.append(new_feature)
 
 

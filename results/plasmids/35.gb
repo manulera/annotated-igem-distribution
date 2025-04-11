@@ -1,4 +1,4 @@
-LOCUS       BBa_J428058             5961 bp    DNA     circular SYN 10-DEC-2024
+LOCUS       BBa_J428058             5961 bp    DNA     circular SYN 11-APR-2025
 DEFINITION  .
 ACCESSION   .
 VERSION     .
@@ -112,7 +112,7 @@ FEATURES             Location/Qualifiers
                      /match_length="6.0"
                      /fragment="True"
                      /other="CDS"
-     misc_feature    2036..13957
+     misc_feature    2036..5950
                      /label="His_TwinStrep_SUMO_LwCas13a / BBa_J428058"
                      /db_xref="BBa_J428058"
 ORIGIN

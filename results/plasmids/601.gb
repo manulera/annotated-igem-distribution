@@ -1,4 +1,4 @@
-LOCUS       BBa_K3317004            2781 bp    DNA     circular SYN 10-DEC-2024
+LOCUS       BBa_K3317004            2781 bp    DNA     circular SYN 11-APR-2025
 DEFINITION  .
 ACCESSION   .
 VERSION     .
@@ -80,7 +80,7 @@ FEATURES             Location/Qualifiers
                      /match_length="23.7"
                      /fragment="True"
                      /other="CDS"
-     misc_feature    2036..7597
+     misc_feature    2036..2770
                      /label="Coding_sequences_BBa_K3317004 / BBa_K3317004"
                      /db_xref="BBa_K3317004"
 ORIGIN

@@ -1,4 +1,4 @@
-LOCUS       BBa_J435229             2411 bp    DNA     circular SYN 10-DEC-2024
+LOCUS       BBa_J435229             2411 bp    DNA     circular SYN 11-APR-2025
 DEFINITION  .
 ACCESSION   .
 VERSION     .
@@ -64,7 +64,7 @@ FEATURES             Location/Qualifiers
                      /match_length="9.8"
                      /fragment="True"
                      /other="CDS"
-     misc_feature    2033..6854
+     misc_feature    2033..2257
                      /label="Sc-tENO2 / BBa_J435229"
                      /db_xref="BBa_J435229"
 ORIGIN

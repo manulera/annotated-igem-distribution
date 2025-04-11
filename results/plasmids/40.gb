@@ -1,4 +1,4 @@
-LOCUS       BBa_J428063             6153 bp    DNA     circular SYN 10-DEC-2024
+LOCUS       BBa_J428063             6153 bp    DNA     circular SYN 11-APR-2025
 DEFINITION  .
 ACCESSION   .
 VERSION     .
@@ -96,7 +96,7 @@ FEATURES             Location/Qualifiers
                      /match_length="23.7"
                      /fragment="True"
                      /other="CDS"
-     misc_feature    2036..14341
+     misc_feature    2036..6142
                      /label="Nickases_Cas9n_D10A / BBa_J428063"
                      /db_xref="BBa_J428063"
 ORIGIN

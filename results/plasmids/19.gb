@@ -1,4 +1,4 @@
-LOCUS       BBa_J23109              2424 bp    DNA     circular SYN 10-DEC-2024
+LOCUS       BBa_J23109              2424 bp    DNA     circular SYN 11-APR-2025
 DEFINITION  .
 ACCESSION   .
 VERSION     .
@@ -88,7 +88,7 @@ FEATURES             Location/Qualifiers
                      /match_length="23.7"
                      /fragment="True"
                      /other="CDS"
-     misc_feature    2208..7055
+     misc_feature    2208..2242
                      /label="BBa_J23109 / BBa_J23109"
                      /db_xref="BBa_J23109"
 ORIGIN

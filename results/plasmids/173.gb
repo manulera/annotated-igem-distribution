@@ -1,4 +1,4 @@
-LOCUS       BBa_J435321             2410 bp    DNA     circular SYN 10-DEC-2024
+LOCUS       BBa_J435321             2410 bp    DNA     circular SYN 11-APR-2025
 DEFINITION  .
 ACCESSION   .
 VERSION     .
@@ -64,7 +64,7 @@ FEATURES             Location/Qualifiers
                      /match_length="9.8"
                      /fragment="True"
                      /other="CDS"
-     misc_feature    2143..6962
+     misc_feature    2143..2208
                      /label="N5E_R5 / BBa_J435321"
                      /db_xref="BBa_J435321"
 ORIGIN

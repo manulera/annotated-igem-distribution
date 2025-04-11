@@ -1,4 +1,4 @@
-LOCUS       BBa_J435266             2311 bp    DNA     circular SYN 10-DEC-2024
+LOCUS       BBa_J435266             2311 bp    DNA     circular SYN 11-APR-2025
 DEFINITION  .
 ACCESSION   .
 VERSION     .
@@ -64,7 +64,7 @@ FEATURES             Location/Qualifiers
                      /match_length="9.8"
                      /fragment="True"
                      /other="CDS"
-     misc_feature    2041..6662
+     misc_feature    2041..2210
                      /label="AConR2 / BBa_J435266"
                      /db_xref="BBa_J435266"
 ORIGIN

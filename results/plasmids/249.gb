@@ -1,4 +1,4 @@
-LOCUS       BBa_J435397             2466 bp    DNA     circular SYN 10-DEC-2024
+LOCUS       BBa_J435397             2466 bp    DNA     circular SYN 11-APR-2025
 DEFINITION  .
 ACCESSION   .
 VERSION     .
@@ -72,7 +72,7 @@ FEATURES             Location/Qualifiers
                      /match_length="9.8"
                      /fragment="True"
                      /other="CDS"
-     misc_feature    2149..7080
+     misc_feature    2149..2316
                      /label="T1T2_GB1 / BBa_J435397"
                      /db_xref="BBa_J435397"
 ORIGIN

@@ -1,4 +1,4 @@
-LOCUS       BBa_J433000             2677 bp    DNA     circular SYN 10-DEC-2024
+LOCUS       BBa_J433000             2677 bp    DNA     circular SYN 11-APR-2025
 DEFINITION  .
 ACCESSION   .
 VERSION     .
@@ -112,7 +112,7 @@ FEATURES             Location/Qualifiers
                      /match_length="5.9"
                      /fragment="True"
                      /other="enhancer"
-     misc_feature    12..5365
+     misc_feature    12..589
                      /label="CMV_v1 / BBa_J433000"
                      /db_xref="BBa_J433000"
 ORIGIN

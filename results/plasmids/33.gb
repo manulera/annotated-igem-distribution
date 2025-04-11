@@ -1,4 +1,4 @@
-LOCUS       BBa_J428056             6864 bp    DNA     circular SYN 10-DEC-2024
+LOCUS       BBa_J428056             6864 bp    DNA     circular SYN 11-APR-2025
 DEFINITION  .
 ACCESSION   .
 VERSION     .
@@ -104,7 +104,7 @@ FEATURES             Location/Qualifiers
                      /match_length="23.7"
                      /fragment="True"
                      /other="CDS"
-     misc_feature    2036..15763
+     misc_feature    2036..6853
                      /label="Cas_variants_ABE8e_TadA_8e_V106W / BBa_J428056"
                      /db_xref="BBa_J428056"
 ORIGIN

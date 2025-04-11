@@ -1,4 +1,4 @@
-LOCUS       BBa_J428081             2763 bp    DNA     circular SYN 10-DEC-2024
+LOCUS       BBa_J428081             2763 bp    DNA     circular SYN 11-APR-2025
 DEFINITION  .
 ACCESSION   .
 VERSION     .
@@ -96,7 +96,7 @@ FEATURES             Location/Qualifiers
                      /match_length="3.1"
                      /fragment="True"
                      /other="CDS"
-     misc_feature    2039..7564
+     misc_feature    2039..2752
                      /label="OCS / BBa_J428081"
                      /db_xref="BBa_J428081"
 ORIGIN

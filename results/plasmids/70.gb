@@ -1,4 +1,4 @@
-LOCUS       BBa_J428075             2436 bp    DNA     circular SYN 10-DEC-2024
+LOCUS       BBa_J428075             2436 bp    DNA     circular SYN 11-APR-2025
 DEFINITION  .
 ACCESSION   .
 VERSION     .
@@ -88,7 +88,7 @@ FEATURES             Location/Qualifiers
                      /match_length="23.7"
                      /fragment="True"
                      /other="CDS"
-     misc_feature    2039..6910
+     misc_feature    2039..2425
                      /label="MAS_pro / BBa_J428075"
                      /db_xref="BBa_J428075"
 ORIGIN

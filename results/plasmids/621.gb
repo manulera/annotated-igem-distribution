@@ -1,4 +1,4 @@
-LOCUS       BBa_J434117             3588 bp    DNA     circular SYN 10-DEC-2024
+LOCUS       BBa_J434117             3588 bp    DNA     circular SYN 11-APR-2025
 DEFINITION  .
 ACCESSION   .
 VERSION     .
@@ -64,7 +64,7 @@ FEATURES             Location/Qualifiers
                      /match_length="9.8"
                      /fragment="True"
                      /other="CDS"
-     misc_feature    2018..9193
+     misc_feature    2018..3571
                      /label="CE_kp_PDI1 / BBa_J434117"
                      /db_xref="BBa_J434117"
 ORIGIN

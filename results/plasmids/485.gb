@@ -1,4 +1,4 @@
-LOCUS       BBa_J23101              2467 bp    DNA     circular SYN 10-DEC-2024
+LOCUS       BBa_J23101              2467 bp    DNA     circular SYN 11-APR-2025
 DEFINITION  .
 ACCESSION   .
 VERSION     .
@@ -104,7 +104,7 @@ FEATURES             Location/Qualifiers
                      /match_length="23.7"
                      /fragment="True"
                      /other="CDS"
-     misc_feature    2251..7184
+     misc_feature    2251..2285
                      /label="Promoters_in_vector_BBa_J23101 / BBa_J23101"
                      /db_xref="BBa_J23101"
 ORIGIN

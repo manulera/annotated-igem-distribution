@@ -1,4 +1,4 @@
-LOCUS       BBa_J364001             5336 bp    DNA     circular SYN 10-DEC-2024
+LOCUS       BBa_J364001             5336 bp    DNA     circular SYN 11-APR-2025
 DEFINITION  .
 ACCESSION   .
 VERSION     .
@@ -184,7 +184,7 @@ FEATURES             Location/Qualifiers
                      /match_length="9.8"
                      /fragment="True"
                      /other="CDS"
-     misc_feature    4404..15075
+     misc_feature    4404..5321
                      /label="2018_Interlab_J364001 / BBa_J364001"
                      /db_xref="BBa_J364001"
 ORIGIN

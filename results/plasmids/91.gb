@@ -1,4 +1,4 @@
-LOCUS       BBa_J428006             2437 bp    DNA     circular SYN 10-DEC-2024
+LOCUS       BBa_J428006             2437 bp    DNA     circular SYN 11-APR-2025
 DEFINITION  .
 ACCESSION   .
 VERSION     .
@@ -80,7 +80,7 @@ FEATURES             Location/Qualifiers
                      /match_length="23.7"
                      /fragment="True"
                      /other="CDS"
-     misc_feature    2208..7081
+     misc_feature    2208..2255
                      /label="pScbR / BBa_J428006"
                      /db_xref="BBa_J428006"
 ORIGIN

@@ -1,4 +1,4 @@
-LOCUS       BBa_J435100             3716 bp    DNA     circular SYN 10-DEC-2024
+LOCUS       BBa_J435100             3716 bp    DNA     circular SYN 11-APR-2025
 DEFINITION  .
 ACCESSION   .
 VERSION     .
@@ -72,7 +72,7 @@ FEATURES             Location/Qualifiers
                      /match_length="9.8"
                      /fragment="True"
                      /other="CDS"
-     misc_feature    2030..9461
+     misc_feature    2030..3625
                      /label="Calf Intestine Alkaline phosphatase (CIAP) /
                      BBa_J435100"
                      /db_xref="BBa_J435100"

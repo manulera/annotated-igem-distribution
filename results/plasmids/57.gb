@@ -1,4 +1,4 @@
-LOCUS       BBa_J428110             3042 bp    DNA     circular SYN 10-DEC-2024
+LOCUS       BBa_J428110             3042 bp    DNA     circular SYN 11-APR-2025
 DEFINITION  .
 ACCESSION   .
 VERSION     .
@@ -128,7 +128,7 @@ FEATURES             Location/Qualifiers
                      /match_length="23.7"
                      /fragment="True"
                      /other="CDS"
-     misc_feature    2071..8154
+     misc_feature    2071..3042
                      /label="3_Colors_ins_BBa_E1010 / BBa_J428110"
                      /db_xref="BBa_J428110"
 ORIGIN
